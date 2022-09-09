@@ -1,5 +1,5 @@
 {
-    "name": "techdivision/import-configuration-jms",
+    "name": "adhocore/import-configuration-jms",
     "description": "Library providing a JMS based configuration implementation for the M2IF",
     "license": "OSL-3.0",
     "require": {
