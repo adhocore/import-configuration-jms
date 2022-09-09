@@ -1,0 +1,35 @@
+{
+    "name": "techdivision/import-configuration-jms",
+    "description": "Library providing a JMS based configuration implementation for the M2IF",
+    "license": "OSL-3.0",
+    "require": {
+        "php": ">=7.1.0",
+        "doctrine/collections": "^1.6",
+        "jms/serializer": "^1.0",
+        "techdivision/import": "15.*"
+    },
+    "require-dev": {
+        "pdepend/pdepend": "2.5.2",
+        "phpmd/phpmd": "@stable",
+        "phpunit/phpunit": "~6.5.0",
+        "sebastian/phpcpd": "~3.0.0",
+        "squizlabs/php_codesniffer": "~3.4.0",
+        "consolidation/robo": "~1.0",
+        "mikey179/vfsstream": "~1.0",
+        "symfony/http-kernel": "~3.4"
+    },
+    "authors": [
+        {
+            "name": "Tim Wagner",
+            "email": "t.wagner@techdivision.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TechDivision\\Import\\Configuration\\Jms\\": [
+                "src/",
+                "tests/unit"
+            ]
+        }
+    }
+}
